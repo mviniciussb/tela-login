@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/*
+Tipycal device breakpoints:
+
+mobile: maximo de 767px
+tablet: de 768px à 1023px
+PC: min de 1024px
+TV: min de 1500px
+*/
+
+@media screen and (min-width: 768px) and (max-width: 1099px) {
+    body {
+        background-image: linear-gradient(to top, #724A05, #746021, #293205);
+    }
+
+    #login {
+        width: 80vw;
+    }
+    
+    #img {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    #form {
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    body {
+        background-image: linear-gradient(to top, #724A05, #746021, #293205);
+    }
+
+
+
+    #login {
+        width: 1024px;
+    }
+
+    #img {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    #form {
+        float: left;
+        width: 50%;
+    }}
