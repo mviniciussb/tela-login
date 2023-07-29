@@ -37,7 +37,7 @@ main {
     position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    
     overflow: hidden;
     background-color: #F2CF63;
     width: 250px;
@@ -46,6 +46,7 @@ main {
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.453);
     transition: width .1s, heidht .1s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
 }
 
 #img {
@@ -72,10 +73,34 @@ main {
 }
 
 form > div.campo {
-    background-color: ;
+    background-color: #a18c4c;
+    border: px solid #b49d55;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
+}
+
+.campo span {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+
+}
+
+.campo > input {
+    background-color: #b9a057;
+    font-size: 1em;
+    width: calc(100% - 45px);
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    transform: translateY(-10px);
+}
+
+.campo > input:focus-within {
+    background-color: white;
 }
 
 .campo > label {
