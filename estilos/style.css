@@ -39,7 +39,7 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
-    background-color: #F29F05;
+    background-color: #F2CF63;
     width: 250px;
     height: 500px;
     border-radius: 20px;
@@ -54,7 +54,7 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     height: 200px;
-    background-position: left bottom;
+    background-position: right top;
 }
 
 #form {
@@ -72,7 +72,7 @@ main {
 }
 
 form > div.campo {
-    
+    background-color: ;
     height: 40px;
     border-radius: 5px;
     margin: 5px 0px;
@@ -80,6 +80,10 @@ form > div.campo {
 
 .campo > label {
     display: none;
+}
+
+form > input[type=email]{
+    width: 100px;
 }
 
 form > input[type=submit] {
@@ -121,4 +125,3 @@ form > a.botao:hover {
 form > a.botao > span {
     font-size: .8em;
 }
-

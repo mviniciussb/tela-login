@@ -11,7 +11,7 @@ TV: min de 1500px
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body {
-        background-image: linear-gradient(to top, #724A05, #746021, #293205);
+        background-image: linear-gradient(to top, #7a6833, #746021, #293205);
     }
 
     #login {
@@ -32,7 +32,7 @@ TV: min de 1500px
 
 @media screen and (min-width: 992px) {
     body {
-        background-image: linear-gradient(to top, #724A05, #746021, #293205);
+        background-image: linear-gradient(to top, #7a6833, #746021, #293205);
     }
 
 
@@ -53,6 +53,7 @@ TV: min de 1500px
     }
 
     #form > h1 {
+        text-align: center;
         font-size: 2em;
     }
 
